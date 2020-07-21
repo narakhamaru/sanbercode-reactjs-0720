@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+section {
+    display: inline-block;
+    background-color: white;
+    margin: 10px 15% 10px 15%;
+}
+
+.mainkonten{
+    min-height: calc(100vh - 80px - 50px);
+}
+
+h1{
+    align-items: center;
+    text-align: center;
+}
+
+body{
+    font-family:montserrat;
+    background-image: url("../images/pattern.jpg");
+}
+
+nav{
+    background: white;
+    height: 80px;
+    width: 100%;
+}
+
+img.logo {
+    padding-top: 10px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 2px;
+}
+
+nav ul li a{
+    color:black;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    /* text-transform: uppercase; */
+    font-family: 'Poppins', sans-serif;
+}
+
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+    color: white;
+}
+
+@media (max-width: 952px){
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px){
+    nav ul li a{
+        color: black;
+    }
+
+    a.active,a:hover{
+        background:#1b9bff;
+        transition: .5s;
+    }
+
+    img.logo {
+        align-items: center;
+    }
+
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+}
+
+footer h5 {
+    padding-top: 10px;
+}
+
+.konten {
+    padding: 10px 10px 10px 10px;
+    line-height: 22px;
+    border-bottom-color: #003366;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+}
+
+.konten h3 {
+    padding-bottom: 10px;
+}
+
+.about {
+    margin: 10px 15% 10px 15%;
+    text-align: left;
+    background-color: white;
+    line-height: 30px;
+    border-radius: 20px;
+}
+
+.about > h3 {
+    text-align: center;
+}
+
+.about > p {
+    padding-left: 20px;
+}
+
+.back{
+    text-align: center;
+    background-color: #003366;
+    border-radius: 5px;
+    margin: 10px 15% 10px 15%;
+}
+
+.back a{
+    color: white;
+}
