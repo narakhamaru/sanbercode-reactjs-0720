@@ -40,10 +40,17 @@ else if(nilai < 50) grade = "D"
 console.log(`Grade anda: ${grade}`)
 
 //soal5
-var tanggal = 2;
+var tanggal = 7;
 var bulan = 1;
 var tahun = 1992;
 //jawaban soal5
 switch(bulan) {
-    case 1:   { console.log(tanggal,'Februari',tahun); }
+    case 1:   { 
+            console.log(tanggal,'Februari',tahun)
+            break; 
+    }
+    default:{
+            console.log("tidak ada dalam bulan")
+            break;
+    }
 }
