@@ -43,6 +43,7 @@ for (var i = 1; i <= row; i++) {
 	console.log(num);
 }
 
+//Soal Ke4
 //jawaban Soal4
 var kalimat = [ "saya", "belajar", "javascript"]
 kalimat.splice(1, 0, "senang") 
